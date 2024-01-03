@@ -16,7 +16,7 @@ function ViewProductPage() {
 
       <div className="product-promotion-box">
         <h2>
-          คุณคือสมาชิกในระดับ {userLevelContext.level.level}{" "}
+          คุณคือสมาชิกในระดับ {userLevelContext.user.level}{" "}
           ดังนั้นคุณได้สิทธิพิเศษลด 50%
         </h2>
         <button onClick={() => alert("🥳🥳🥳🥳")}>กดรับสิทธิ</button>

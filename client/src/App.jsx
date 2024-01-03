@@ -17,8 +17,7 @@ function App() {
   return (
     <userDataContext.Provider
       value={{
-        name: userData,
-        level: userData,
+        user: userData,
       }}
     >
       <div className="App">
